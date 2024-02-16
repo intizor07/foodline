@@ -1,0 +1,14 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1230px;
+}
+.menyu{
+    justify-content: center;
+}

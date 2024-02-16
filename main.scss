@@ -1,0 +1,290 @@
+
+$bg-color: linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%);
+$cheseburger-width: 300px;
+
+
+.categories{
+    h1{
+        font-weight: 200px;
+        font-family: "Inter", sans-serif;
+       
+        
+    }
+    button{
+        background-color: rgb(174, 236, 236);
+        border-radius: 6px;
+        padding: 10px 10px 10px 10px;
+        font-family: "Inter", sans-serif;
+    }
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 70px;
+}
+.menyu{
+        margin-top: 70px;
+        text-align: center;
+        justify-content: center;
+        font-weight: 200px;
+        font-family: "Inter", sans-serif;
+        justify-content: center;
+
+    }
+.hero{
+    width: 400;
+    height: 434px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    img{
+        border-radius: 20px;
+    }
+
+    .vector{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+    .cheseburger{
+        width: $cheseburger-width + 100;
+        height: 434px;
+        background: $bg-color;
+        border-radius: 20px;
+        margin-top: 20px;
+        font-size: 10px;
+    
+    }
+    .Ginger{
+        width: $cheseburger-width + 100;
+        height: 434px;
+        background: $bg-color;
+        border-radius: 20px;
+        margin-top: 40px;
+          font-size: 10px;
+    }
+    
+    .Honey{
+        width: $cheseburger-width + 100;
+        height: 434px;
+        background: $bg-color;
+        border-radius: 20px;
+        margin-top: 40px;
+        font-size: 10px;
+    
+    }
+    .Mayonnaise{
+        width: $cheseburger-width + 100;
+        height: 434px;
+        background: $bg-color;
+        border-radius: 20px;
+        margin-top: 40px;
+        font-size: 10px;
+    }
+    .Cheese{
+        width: $cheseburger-width + 100;
+        height: 434px;
+        background: $bg-color;
+        border-radius: 20px;
+        margin-top: 40px;
+        font-size: 10px;
+    
+    }
+    .Ads{
+        margin-top: 40px;
+    
+    }
+    .Blueberry{
+        width: $cheseburger-width + 100;
+        height: 434px;
+        background: $bg-color;
+        border-radius: 20px;
+         margin-top: 40px;
+         font-size: 10px;
+    }
+    .Rise{
+        width: $cheseburger-width + 100;
+        height: 434px;
+        background: $bg-color;
+        border-radius: 20px;
+        margin-top: 40px;
+        font-size: 10px;
+    }
+    .Pasta{
+        width: $cheseburger-width + 100;
+        height: 434px;
+        background: $bg-color;
+        border-radius: 20px;
+        margin-top: 40px;
+        font-size: 10px;
+    }
+
+}
+
+.black{
+    color: white;
+    background-color: black;
+    padding: 22px 21px 23px 22px;
+    border-radius: 12px;
+}
+
+.everyone{
+    margin-top: 1150px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 60px;
+    
+}
+.everyone h1{
+    margin-top: 20px;
+    font-size: 50px;
+}
+.everyone p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.check{
+    margin-top: 300px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.outtt img{
+    margin-top: 100px;
+    margin-left: 100px;
+    gap: 50px;
+}
+.buttonn{
+    button{
+        margin-top: 250px;
+        justify-content: center;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 22px 23px 22px 23px;
+        border-radius: 15px;
+    }
+    
+}
+.you{
+    display: flex;
+    text-align: center;
+}
+
+.simplee{
+    // width: 120px;
+    // height: 88px;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    img{
+        border-radius: 20px;
+    }
+
+    .vectorr{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        margin-right: 110px;
+    }
+
+    .mix{
+        width: $cheseburger-width + 100;
+        height: 400px;
+        background: $bg-color;
+        border-radius: 20px;
+        margin-top: 40px;
+        font-size: 10px;
+
+    }
+
+    .mix{
+        h1{
+            // margin-left: 20px;
+        }
+    }
+    
+}
+
+.footer{
+    width: 1248px;
+    height: 639px;
+   background: #E7F9FD;  
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   margin-left: 400px;
+   margin-top: 190px;
+   .divv{
+    text-align: center;
+   }
+   h1{
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+}
+input{
+    width: 400px;
+    height: 60px;
+    font-weight: 500px;
+    border-radius: 17px;
+    border: none;
+
+   
+}
+
+.oo{
+    background-color: black;
+    width: 160px;
+     height: 50px;
+   border-radius: 10px;
+    color: white;
+}
+.rasm{
+    margin-top: -14px;
+   margin-right: 870px;
+}
+.rasmm{
+    margin-top: -243px;
+    margin-left: 898px;
+    border-radius: 17px;
+}
+
+.inputs{
+    position: relative;
+    button{
+        position: absolute;
+       left: 660px;
+       top: 7px;
+    }
+}
+
+.food{
+    margin-top: 200px;
+}
+
+
+.avtech{
+    margin-right: -30px;
+}
+
+.loremm{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1000px;
+}
+.dil{
+    display: flex;
+    justify-content: center;
+    gap: 760px;
+    margin-top: 160px;
+}
+.class{
+    gap: 40px;
+}
